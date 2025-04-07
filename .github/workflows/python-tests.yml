@@ -28,7 +28,7 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        coverage run --source=uber_pickups -m unittest discover -s /workspaces/streamlit-ui-getting-started -p "test_*.py"
+        coverage run --source=src/uber_pickups -m unittest discover -s tests -p "test_*.py"
         coverage xml
 
     - name: Upload coverage to Codecov
