@@ -1,6 +1,6 @@
 # streamlit-ui-getting-started
 
-[![codecov](https://codecov.io/gh/username/repository/branch/main/graph/badge.svg)](https://codecov.io/gh/username/repository)
+[![codecov](https://codecov.io/gh/gsaini/streamlit-ui-getting-started/graph/badge.svg?token=3AF9C435OO)](https://codecov.io/gh/gsaini/streamlit-ui-getting-started)
 
 Streamlit is an open-source Python framework for data scientists and AI/ML engineers to deliver dynamic data apps with only a few lines of code. Build and deploy powerful data apps in minutes. Let's get started!
 
