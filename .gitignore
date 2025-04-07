@@ -1,1 +1,6 @@
-htmlcov
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
