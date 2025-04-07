@@ -7,6 +7,25 @@ Streamlit is an open-source Python framework for data scientists and AI/ML engin
 streamlit run uber_pickups.py
 ```
 
+## Step 1: Run Coverage with the Configuration
+Run the coverage command as before, and it will now ignore the test files:
+
+```
+coverage run --source=uber_pickups -m unittest discover -s /workspaces/streamlit-ui-getting-started -p "test_*.py"
+```
+
+## Step 2: Generate the Coverage Report
+Generate the coverage report to verify that the test files are excluded:
+```
+coverage report -m
+```
+
+## Step 3: (Optional) Generate an HTML Report
+If you want a detailed HTML report, run:
+```
+coverage html
+```
+
 
 ## Try out a limited version of Streamlit right in your browser.
 

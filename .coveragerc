@@ -1,0 +1,3 @@
+[run]
+omit =
+    test_*.py  # Ignore all test files starting with 'test_'
