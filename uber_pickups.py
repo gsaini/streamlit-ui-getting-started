@@ -26,7 +26,15 @@ def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows)
     
     # Convert column names to lowercase for consistency
-    lowercase = lambda x: str(x).lower()
+    def lowercase(x):
+        return str(x).lower()
+    
+    # Apply the lowercase function to all column names
+    # This is done to ensure that all column names are in lowercase
+    # This is important for consistency and to avoid case sensitivity issues
+    # when accessing the columns later in the code
+    # The `axis='columns'` argument specifies that we are applying the function to the column names
+    # The `inplace=True` argument modifies the DataFrame in place without creating a copy
     data.rename(lowercase, axis='columns', inplace=True)
     
     # Convert the date/time column to datetime format for easier manipulation

@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 import pandas as pd
 from uber_pickups import load_data, DATE_COLUMN, DATA_URL
 
